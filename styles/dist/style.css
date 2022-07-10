@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Karla", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("../Img_Video/pexels-engin-akyurt-2271194.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
